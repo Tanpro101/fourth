@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu:300i,400,400i,500,700&display=swap');
+/*font-family: 'Ubuntu', sans-serif;
+font-family: 'Playfair Display', serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+padding: 30px 0;
+}
+.logo{
+width: 20%;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+justify-content: space-between;
+display: flex;
+list-style: none;
+}
+.menu ul li a{
+text-decoration: none;
+text-transform: uppercase;
+color: #626262;
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+font-weight: 500;
+}
+/*banner part start*/
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+/*banner part end*/
+/*photodiary part start*/
+.photodiary{
+width: 80%;
+margin: auto;
+}
+.photodiary span{
+    font-size: 14px;
+    color: #b9b2a5;
+    margin: 30px 0;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+color:#6f6f6f ;
+font-family: 'Playfair Display', serif;
+font-size:25px ;
+font-weight: 700;
+margin-bottom: 30px;
+text-transform: none;
+
+}
+p{
+    color:#626262;
+    font-size: 16;
+    line-height: 1.4;
+   text-align: justify;
+}
+/*photodiary part end*/
+/*lifestyle part start*/
+.lifestyle{
+width: 80%;
+display: flex;
+margin: auto;
+justify-content: space-between;
+padding: 30px 0;
+}
+.lifestyle-one{
+width: 45%
+}
+.lifestyle-one span{
+    font-size: 14px;
+    color: #b9b2a5;
+    margin: 30px 0;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.lifestyle-one img{
+    width: 100%;
+}
+
+/*lifestyle part end*/
+/*newsletter part start*/
+.newsletter{
+background-color: lightgreen;
+margin-bottom: 50px;
+padding: 30px;
+}
+.news{
+width: 30%;
+margin: auto;
+padding: 50x 0;
+position: relative;
+width: 40%;
+}
+
+.send-icon{
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+}
+.news input{
+border:none ;
+background: none;
+border-bottom: 1px solid;
+width: 100%;
+margin-top: 40px;
+}
+news img{
+    position: absolute;
+    right: 0;
+    transform: translateX(32);
+}
+/*newsletter part end*/
+.load-more{
+    text-align: center;
+    margin: 72px;
+}
+.load-more button{
+border: none;
+font-size: 20px;
+color: #b1b1b1;
+border: 1px solid;
+padding: 19px;
+font-family: 'Playfair Display', serif;
+background: transparent;
+}
+footer{
+ background-color: hotpink;
+
+}
+
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.terms{
+width: 25%;
+}
+.terms ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+margin: auto;
+}
+.terms ul li a{
+text-decoration: none;
+color: #000;
+}
+.social{
+width: 23%;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: auto;
+}
+.social ul li a{
+text-decoration: none;
+color: #000;
+}
